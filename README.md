@@ -4,7 +4,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://www.python.org/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![Generic badge](https://img.shields.io/badge/STATUS-COMPLETED-<COLOR>.svg)](https://shields.io/)
-[![GitHub license](https://img.shields.io/github/license/teyang-lau/Dog_Breeds_Classification_CNN.svg)](https://github.com/teyang-lau/Dog_Breeds_Classification_CNN/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/teyang-lau/Dog_Breeds_Classification_CNN.svg)](https://github.com/teyang-lau/Neural_Style_Transfer/blob/master/LICENSE)
 
 Author: TeYang, Lau <br>
 Last Updated: 9 August 2020
@@ -50,7 +50,7 @@ For this project, I applied deep learning and convolutional neural networks onto
 
 Here we will attempt to paint the content image in the style of the style image.
 
-<img src = './Pictures/contentstyle.png'>
+<img src = './Pictures/contentstyle.PNG'>
 
 
 
@@ -58,17 +58,17 @@ Here we will attempt to paint the content image in the style of the style image.
 
 The cost function is the most important idea in neural style transfer. The overall idea is simple. We want the generated image to have the same content as the content image while having the same style as the style image. Therefore, we are looking to reduce the cost/loss of the generated image, which we define as the sum of its content cost and style cost:
 
-<img src = './Pictures/totalcost.png'>
+<img src = './Pictures/totalcost.PNG'>
 
 
 
 **Content cost** is defined as the euclidean distance between the activations of the content and generated image at a specific layer:
 
-<img src = './Pictures/contentcost.png'>
+<img src = './Pictures/contentcost.PNG'>
 
 **Style cost** is defined as the Frobenius norm of the gram matrices of the style and generated image at a specific layer:
 
-<img src = './Pictures/stylecost.png'>
+<img src = './Pictures/stylecost.PNG'>
 
 
 
@@ -76,9 +76,9 @@ The cost function is the most important idea in neural style transfer. The overa
 
 With each epoch in training the model, the generated image becomes more similar in content and style to the content and style images respectively. Refer to the [notebook](https://www.kaggle.com/teyang/neural-style-transfer-for-unique-artistic-photos) on Kaggle to look at this animated process! 
 
-<img src = './Pictures/rainbow_face.png'>
+<img src = './Pictures/rainbow_face.PNG'>
 
-<img src = './Pictures/mp_vg.png'>
+<img src = './Pictures/mp_vg.PNG'>
 
 
 

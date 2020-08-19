@@ -42,7 +42,7 @@ For this project, I applied deep learning and convolutional neural networks onto
 
 **Neural Style Transfer (NST)** is a machine learning optimization technique that uses 2 images - ***a content image*** and a ***style image***, and blends them together so the output (***generated image***) looks like the content image, but 'painted' in the style of the style image. This algorithm was first introduced by Gatys et al. in the paper called [A Neural Algorithm of Artistic Style](https://arxiv.org/pdf/1508.06576.pdf). The core innovation of NST is the use of deep learning to minimize the generated image's content and style so that it matches that of the content and style images. By doing so, it allows us to compose our own pictures in the style of any other paintings/pictures ranging from google images to famous paintings.
 
-<img src = 'https://media.giphy.com/media/UqY2VYZY3u88vikIo6/giphy.gif' width="900">
+<img src = './Pictures/angkor.gif' width="900">
 
 
 
